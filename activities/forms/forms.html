@@ -1,24 +1,33 @@
-<HTML>
-<TITLE> Working with Forms </TITLE>
-<BODY BGCOLOR="lightyellow">
-    <FORM>
-        <B><font color="blue"> Class Information</font></B><br>
-        <label> Full Name : </label>
-        <INPUT type="TEXT" name="fullname" value=" "><br>
-        <label> E-Mail : </label>
-        <INPUT type="TEXT" name="email" value=" "><br>
-        <label> Phone No. : </label>
-        <INPUT type="TEXT" name="phone" value=" "><br>
-		<P>Whats your fruit?
-		<SELECT NAME="year" SIZE=1>
-			<OPTION SELECTED> Apple
-			<OPTION> Apple
-			<OPTION> Banana
-			<OPTION> Lemon
-			<OPTION> Grapes
-			<OPTION> Tomato
-			<OPTION> Other
-		</SELECT>
-    </FORM>
-</BODY>
-</HTML>
+<html>
+<title> Working with Forms </title>
+<body bgcolor="lightyellow">
+    <form>
+        <B><font color="blue"> Class Information</font></B>
+
+        <pre>
+			Full Name :		<INPUT type="TEXT" name="fullname" value=" "><br>
+			E-Mail :		<INPUT type="TEXT" name="email" value=" "><br>
+			Phone No. : 	<INPUT type="TEXT" name="phone" value=" "><br>
+		</pre>
+	
+	<b><font color="blue">Enrollment</font></b>
+	<br>In what session are you enrolled?<br>
+	<input type="radio" name="session" value="day">Day Session
+	<input type="radio" name="session" value="evening">Evening Session
+	<input type="radio" name="session" value="weekend">Weekend Session
+	<input type="submit">
+	
+	<p>What year are you?
+		<select name="year" size=1>
+			<option selected> Freshman
+			<option> Sophomore
+			<option> Junior
+			<option> Senior
+			<option> Post Graduate
+			<option> Visiting student
+			<option> Other
+		</select>
+	
+	</form>
+</body>
+</html>
