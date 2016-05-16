@@ -29,9 +29,20 @@
           Num1: <input type="text" id="num1"><br>
           Num2: <input type="text" id="num2"><br>
     </form>
-    <button onclick="add(document.querySelector('#num1').value, document.querySelector('#num2').value)">Add</button>
-	<button onclick="subtract(document.querySelector('#num1').value, document.querySelector('#num2').value)">Subtract</button>
-	<button onclick="multiply(document.querySelector('#num1').value, document.querySelector('#num2').value)">Multiply</button>
-	<button onclick="divide(document.querySelector('#num1').value, document.querySelector('#num2').value)">Divide</button>
+    <div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <button onclick="add(document.querySelector('#num1').value, document.querySelector('#num2').value)">Add</button>
+			<button onclick="subtract(document.querySelector('#num1').value, document.querySelector('#num2').value)">Subtract</button>
+        </div>
+		<div class="col-md-6">
+            <button onclick="multiply(document.querySelector('#num1').value, document.querySelector('#num2').value)">Multiply</button>
+        <button onclick="divide(document.querySelector('#num1').value, document.querySelector('#num2').value)">Divide</button>
+		</div>
+    </div>
+
+	
+	
+	
   </body>
 </html>
