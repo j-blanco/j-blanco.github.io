@@ -1,0 +1,86 @@
+
+
+function makesticky() {
+        var mywindow = $( window ),
+            myheader = $( ".logopos" );
+    
+        mywindow.scroll( function() {
+            if ( mywindow.scrollTop() == 0 ) {
+                myheader.removeClass( "sticky-nav" );
+            } else {
+                myheader.addClass( "sticky-nav" );
+            }
+        } );
+ }
+    
+    $( function() {
+        makesticky();
+    } );
+    
+
+/*START FOR SCROLL ANIMATION*/
+    
+
+  /* $(window).scroll(function(event) {
+
+        var y = $(this).scrollTop();
+    
+        if (y >=750) {
+            
+            $('#amorosodesign').addClass('animate');
+            
+        }
+    
+      } );*/
+    
+/*$(window).scroll(function(event) {
+
+        var y = $(this).scrollTop();
+    
+        if (y >=1500) {
+            
+            $('#ecodesign').addClass('animate');    
+        }
+    
+      } );  
+    */
+/*$(window).scroll(function(event) {
+
+        var y = $(this).scrollTop();
+    
+        if (y >=2200) {
+            
+            $('#virginiadesign').addClass('animate');
+            
+        }
+    
+      } ); */
+
+/*
+$(window).scroll(function(event) {
+
+        var y = $(this).scrollTop();
+    
+        if (y >=2950) {
+            
+            $('#makeupdesignstyle').addClass('animate');
+            
+        }
+    
+      } );
+*/
+
+/*
+$(window).scroll(function(event) {
+
+        var y = $(this).scrollTop();
+    
+        if (y >=3600) {
+            
+            $('#journeydesign').addClass('animate');
+            
+        }
+    
+      } );
+*/
+
